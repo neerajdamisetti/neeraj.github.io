@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neeraj Damisetti Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            text-shadow: 0 0 10px rgba(0, 198, 255, 0.7), 0 0 20px rgba(0, 198, 255, 0.5), 0 0 30px rgba(0, 198, 255, 0.3);
+            transition: font-size 0.3s ease;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #9baec8;
+            text-shadow: 0 0 5px rgba(0, 198, 255, 0.7), 0 0 10px rgba(0, 198, 255, 0.5);
+        }
+
+        .profile {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #00c6ff;
+            transition: all 0.3s ease;
+        }
+
+        .download-cv {
+            margin-top: 1rem;
+        }
+
+        .download-cv a {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #00c6ff;
+            color: #141e30;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            box-shadow: 0px 4px 15px rgba(0, 198, 255, 0.3);
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .download-cv a:hover {
+            background: #009ad6;
+            transform: translateY(-2px);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            transition: margin 0.3s ease;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #00c6ff;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 8px rgba(0, 198, 255, 0.7), 0 0 12px rgba(0, 198, 255, 0.5);
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #00c6ff;
+            color: #141e30;
+            padding: 0.5rem 1rem;
+            border-radius: 0.3rem;
+            margin: 0.2rem;
+            cursor: move;
+            transition: transform 0.3s ease;
+        }
+
+        .skills span:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #141e30;
+            color: #9baec8;
+        }
+
+        footer a {
+            color: #00c6ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        i {
+            margin-right: 0.5rem;
+            color: #00c6ff;
+        }
+
+        a {
+            color: #00c6ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .profile img {
+                width: 120px;
+                height: 120px;
+            }
+
+            .skills {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .skills span {
+                font-size: 1rem;
+                padding: 0.4rem 0.8rem;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            section {
+                margin-bottom: 1.5rem;
+            }
+
+            .download-cv a {
+                padding: 0.8rem 1.5rem;
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.6rem;
+            }
+
+            header p {
+                font-size: 0.9rem;
+            }
+
+            .profile img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .skills span {
+                font-size: 0.9rem;
+                padding: 0.3rem 0.6rem;
+            }
+
+            .download-cv a {
+                padding: 0.6rem 1.2rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello, I'm Neeraj Damisetti</h1>
+        <p>Artificial Intelligence & Data Science | Aspiring AI & ML Engineer</p>
+        <div class="profile">
+            <img src="C:\Users\WILLIAM7771\Desktop\WhatsApp Image 2024-12-25 at 19.18.07.jpeg" alt="Profile Picture">
+            <div class="download-cv">
+                <a href="C:\Users\WILLIAM7771\Desktop\neeraj 3.pdf" download>Download My CV</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>A passionate AI and Data Science student with hands-on experience in building machine learning projects, 
+                analyzing data, and developing intuitive platforms. My goal is to leverage data-driven insights to create impactful solutions.</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>Vignan Institute of Technology, Vizag (2021-2025)</li>
+                <li>CGPA: 8.5 (Expected)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="skills">
+                <span draggable="true">Python</span> 
+                <span draggable="true">Machine Learning</span> 
+                <span draggable="true">Deep Learning</span> 
+                <span draggable="true">JavaScript</span>
+                <span draggable="true">HTML</span> 
+                <span draggable="true">CSS</span> 
+                <span draggable="true">Power BI</span> 
+                <span draggable="true">Tableau</span> 
+                <span draggable="true">Big Data Analysis</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Farm To Table:</strong> Used CNN & computer vision to optimize farm produce assessment (88% accuracy).</li>
+                <li><strong>Picture-Perfect:</strong> Flask-based web app for image processing (25% improvement in quality assessment).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <ul>
+                <li><i class="fas fa-envelope"></i> Email: neerajdamisetti96@gmail.com</li>
+                <li><i class="fas fa-phone"></i> Phone: +91 8125872172</li>
+                <li><i class="fab fa-github"></i> GitHub: <a href="https://github.com/neeru9" target="_blank">neeru9</a></li>
+                <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/neeraj-damisetti-339835216" target="_blank">Neeraj Damisetti</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Neeraj Damisetti | Designed with passion</p>
+    </footer>
+
+    <script>
+        const skillElements = document.querySelectorAll('.skills span');
+
+        skillElements.forEach(skill => {
+            skill.addEventListener('dragstart', (e) => {
+                e.dataTransfer.setData('text/plain', skill.innerText);
+            });
+        });
+
+        document.querySelector('.skills').addEventListener('dragover', (e) => {
+            e.preventDefault();
+            const draggedElement = document.querySelector('.dragging');
+            e.target.style.background = 'rgba(0, 198, 255, 0.2)';
+        });
+
+        document.querySelector('.skills').addEventListener('dragleave', (e) => {
+            e.target.style.background = '';
+        });
+
+        document.querySelector('.skills').addEventListener('drop', (e) => {
+            const draggedElement = e.target;
+            e.target.style.background = '';
+            const draggedSkill = draggedElement.innerText;
+
+            // Optional: Add the dragged skill to the console or logic for reordering
+            console.log('Dropped:', draggedSkill);
+        });
+    </script>
+</body>
+</html>
